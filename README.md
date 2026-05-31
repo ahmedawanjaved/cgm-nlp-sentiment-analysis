@@ -62,31 +62,18 @@ system without manual review of every post.
 
 ---
 
-## Visualizations
-
-### Friction Score by Topic
-![Friction Scores](friction_scores.png)
-
-### Unmet Needs in CGM Users
-![Unmet Needs](unmet_needs.png)
-
-### Dexcom vs Freestyle Libre — Six Dimensions
-![Dexcom vs Libre](dexcom_vs_libre.png)
-
-### User Segmentation (K-Means Personas)
-![User Segments](user_segments.png)
-
-### Key Takeaways
-![Key Takeaways](key_takeaways.png)
-
-## Modeling & Segmentation
+## Modeling & Analytical Rigor
 
 - Logistic Regression and Random Forest classifiers on TF-IDF features
 - Stratified split, class-balanced, 5-fold cross-validated
 - K-Means user segmentation into actionable personas including a 
   "Mega-Influencer" high-reach group and "Vocal Critics" segment
-- Per-class performance reported (not hidden behind overall accuracy) — 
-  64% neutral class imbalance documented as a known ceiling
+- 4-class sentiment on noisy social text — per-class metrics reported, 
+  not hidden behind overall accuracy
+- 64% neutral class imbalance documented as a known ceiling
+- VADER independently audited against provider sentiment labels — 
+  discrepancies documented
+- Friction score is an original engineered metric, not a library output
 
 ---
 
@@ -112,6 +99,25 @@ to synthesize four concrete business actions:
   VADER audit of provider labels
 - Connecting quantitative findings to concrete business decisions using 
   LLMs as synthesis tools
+
+---
+
+## Visualizations
+
+### Friction Score by Topic
+![Friction Scores](friction_scores.png)
+
+### Unmet Needs in CGM Users
+![Unmet Needs](unmet_needs.png)
+
+### Dexcom vs Freestyle Libre — Six Dimensions
+![Dexcom vs Libre](dexcom_vs_libre.png)
+
+### User Segmentation (K-Means Personas)
+![User Segments](user_segments.png)
+
+### Key Takeaways
+![Key Takeaways](key_takeaways.png)
 
 ---
 
