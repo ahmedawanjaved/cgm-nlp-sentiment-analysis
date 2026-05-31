@@ -62,6 +62,23 @@ system without manual review of every post.
 
 ---
 
+## Visualizations
+
+### Friction Score by Topic
+![Friction Scores](friction_scores.png)
+
+### Unmet Needs in CGM Users
+![Unmet Needs](unmet_needs.png)
+
+### Dexcom vs Freestyle Libre — Six Dimensions
+![Dexcom vs Libre](dexcom_vs_libre.png)
+
+### User Segmentation (K-Means Personas)
+![User Segments](user_segments.png)
+
+### Key Takeaways
+![Key Takeaways](key_takeaways.png)
+
 ## Modeling & Segmentation
 
 - Logistic Regression and Random Forest classifiers on TF-IDF features
